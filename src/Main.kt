@@ -58,6 +58,39 @@ In question 5 I have created a function named greet which takes in the name para
 default value of the greeting parameter is Hello which returns a formatted greeting message.
  */
 
+//Nullable Return Type
+Write a function named findLength that takes a String parameter and returns its length. However, make the return type nullable, indicating that it may return null if the input String is null.
+
+fun main(){
+ var checkLen = findLength("Akirachix")
+}
+
+fun findLength(name:String):Int?{
+ var checkLen =name.length
+ return checkLen
+}
+//Function with Varargs
+// Write a function named average that takes a variable number of integers as its parameters (varargs) and returns the average of those numbers.
+fun main(){
+
+}
+
+fun average (var args number:Int):Double{
+ val sum = number()
+ return sum.toDouble
+}
+//the function (varargs) is used to pass in any number of integers as arguments, therefore it will
+//return the average as double.
+
+//Function with Extension
+//Create a Kotlin extension function named capitalizeEven for the String class. This function should capitalize every second character in the string. For example, if the input is "kotlin", the output should be "kOtLiN".
+fun String.capitalizeEven():String{
+ cities.forEach{ city
+  println(city.capitalize())
+
+ }
+}
+
 
 
 
